@@ -13,8 +13,8 @@ from keras.models import load_model
 import cv2
 from sympy import Predicate
 
-WIN_X=1140
-WIN_Y=880
+WIN_X=1200
+WIN_Y=780
 WHITE=(255,255,0)
 BLACK=(0,0,0)
 GREEN=(255,0,0)
@@ -25,11 +25,11 @@ PREDICT=True
 
 MODEL=load_model("bestmodel.h5")
 
-LABELS={0:"ZERO",1:"ONE",
-2:"TWO",3:"THREE",
-4:"FOUR",5:"FIVE",
-6:"SIX",7:"SEVEN",
-8:"EIGHT",9:"NINE"}
+LABELS={0:"(0) ZERO",1:"(1)ONE",
+2:"(2) TWO",3:"(3) THREE",
+4:"(4) FOUR",5:"(5) FIVE",
+6:"(6) SIX",7:"(7) SEVEN",
+8:"(8) EIGHT",9:"(9) NINE"}
 
 pygame.init()
 FONT=pygame.font.Font("Cascadia.ttf",20)
@@ -80,7 +80,7 @@ while True:
             #img_arr = np.array(pygame.PixelArray(DISPLAYSURF))[rect_min_x:rect_max_x, rect_min_y:rect_max_y].T.astype(np.float32)
 
             if IMAGESAVE:
-                cv2.imwrite("images/image-{%d}.png" % image_cnt, img_arr)
+                cv2.imwrite("images/image-{%d}.png" % imag_cnt, img_arr)
                 imag_cnt +=1
             
             if PREDICT:
