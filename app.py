@@ -13,11 +13,11 @@ from keras.models import load_model
 import cv2
 from sympy import Predicate
 
-WIN_X=640
-WIN_Y=480
-WHITE=(255,255,255)
+WIN_X=1140
+WIN_Y=880
+WHITE=(255,255,0)
 BLACK=(0,0,0)
-GREEN=(0,255,0)
+GREEN=(255,0,0)
 
 IMAGESAVE=False
 imag_cnt=1
