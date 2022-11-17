@@ -56,7 +56,7 @@ while True:
             
         if event.type==MOUSEMOTION and iswriting :
             xcord,ycord=event.pos
-            pygame.draw.circle(DISPLAYSURF,WHITE,(xcord,ycord),4,0)
+            pygame.draw.circle(DISPLAYSURF,WHITE,(xcord,ycord),2,0)
             number_xcord.append(xcord)
             number_ycord.append(ycord)
 
