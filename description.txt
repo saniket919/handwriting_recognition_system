@@ -15,4 +15,17 @@ To complete this project, I first familiarized myself with the MNIST dataset, wh
 
 Next, I trained a machine learning model using the MNIST dataset and the Python libraries TensorFlow and Keras. I fine-tuned the model's hyperparameters to improve its performance, and tested it on the test set to evaluate its accuracy.
 
-Once the model was trained, I integrated it into the PyGame user interface, allowing the user to draw a digit and receive a prediction from the model in real time. The model was able to accurately recognize the handwritten digits and return the expected value to the user. Overall, this project showcased my ability to use Python and machine learning to create a functional and user-friendly application.
+Once the model was trained, I integrated it into the PyGame user interface, allowing the user to draw a digit and receive a prediction from the model in real time. The model was able to accurately recognize the handwritten digits and return the expected value to the user. Overall, this project showcased my ability to use Python and machine learning to create a functional and user-friendly application. 
+
+and in the second part of the project :
+
+
+To train the DGCAN using the MNIST dataset, the first step was to preprocess the data. This involved scaling the pixel values of the images to be between -1 and 1, and then splitting the dataset into training and testing sets.
+
+Next, the generator and discriminator networks were defined. The generator network was responsible for generating new images based on a random noise input, while the discriminator network was responsible for evaluating the generated images and determining whether they were real or fake.
+
+The training process involved alternating between training the generator and discriminator networks. In each iteration, the generator network was first trained using the random noise input and the loss function, which measures the similarity between the generated images and the real images in the MNIST dataset. The discriminator network was then trained to correctly classify the generated and real images.
+
+Once the training process was complete, the generator network was able to produce new images that were similar to the images in the MNIST dataset. These generated images could be used for a variety of purposes, such as generating new training data for other machine learning models, or for creating novel image datasets for use in research and development.
+
+In summary, the DGCAN was trained using the MNIST dataset by preprocessing the data, defining the generator and discriminator networks, and alternating between training the networks using a loss function and random noise input. The final result was a model that was able to generate new images that were similar to the images in the MNIST dataset.
