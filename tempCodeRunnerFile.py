@@ -1,1 +1,1 @@
-numpy
+DISPLAYSURF=pygame.display.set_mode((WIN_X,WIN_Y))

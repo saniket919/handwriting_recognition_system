@@ -1,0 +1,18 @@
+In this project, I used the MNIST dataset to train a machine learning model that is capable of recognizing handwritten digits from 0-9. The MNIST dataset is a well-known dataset that contains over 60,000 images of handwritten digits, along with their corresponding labels. Each image in the dataset is 28x28 pixels in size and is grayscale, meaning that it contains only one color channel.
+
+To train the model, I used a deep learning algorithm called a convolutional neural network (CNN). This type of network is well-suited for image recognition tasks and is able to learn the features and patterns that are present in the MNIST dataset. I used the PyTorch deep learning framework to implement the CNN and trained it on the MNIST dataset.
+
+After training the model, I used the PyGame modules to take input from the user through the mouse. The user could draw a handwritten digit on the screen, and the input was then fed into the model. The model would make a prediction about the digit that the user was drawing and return the expected value of the digit.
+
+To evaluate the performance of the model, I tested it on a variety of inputs. I found that the model was able to accurately recognize handwritten digits with a high degree of accuracy, making it a useful tool for digit recognition tasks.
+
+Overall, this project demonstrates the effectiveness of using deep learning algorithms for handwritten digit recognition and shows the potential of using PyGame for user input in machine learning applications. By using the MNIST dataset and a CNN, I was able to train a model that is able to accurately classify handwritten digits, even when they are drawn by a user in real-time.
+
+
+
+
+To complete this project, I first familiarized myself with the MNIST dataset, which consists of 60,000 training images and 10,000 test images of handwritten digits from 0-9. I then used the PyGame modules to create a user interface that allowed the user to draw a digit using the mouse.
+
+Next, I trained a machine learning model using the MNIST dataset and the Python libraries TensorFlow and Keras. I fine-tuned the model's hyperparameters to improve its performance, and tested it on the test set to evaluate its accuracy.
+
+Once the model was trained, I integrated it into the PyGame user interface, allowing the user to draw a digit and receive a prediction from the model in real time. The model was able to accurately recognize the handwritten digits and return the expected value to the user. Overall, this project showcased my ability to use Python and machine learning to create a functional and user-friendly application.
